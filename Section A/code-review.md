@@ -1,5 +1,5 @@
 
-Code Review
+## Code Review
 
 ### General comments
 
@@ -16,4 +16,4 @@ Code Review
 
 ### Recommendations
 
-Since the class does not have other methods ( instance, static ) using it  with only 1 instance is overkill, the solution should be refactored using a function
+Since the class does not have other methods ( instance, static ) using it  with only 1 instance is overkill, the solution should be refactored to a function implementation.
