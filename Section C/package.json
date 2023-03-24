@@ -1,0 +1,25 @@
+{
+  "name": "say-number",
+  "version": "1.0.0",
+  "description": "A Typescript project about an app that takes a number and returns the standard way of reading that number",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "jest"
+  },
+  "author": "Funakele Brian Zulu",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.5",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@types/prompt-sync": "^4.2.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
